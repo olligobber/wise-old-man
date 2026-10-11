@@ -11,9 +11,9 @@ import {
   GenericMessageResponse,
   Metric,
   ParticipantHistoryResponse
-} from '../api-types';
-import { PaginationOptions } from '../utils';
-import BaseAPIClient from './BaseAPIClient';
+} from '../api-types.ts';
+import { PaginationOptions } from '../utils.ts';
+import BaseAPIClient from './BaseAPIClient.ts';
 
 export default class CompetitionsClient extends BaseAPIClient {
   /**

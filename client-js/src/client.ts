@@ -1,12 +1,12 @@
-import BaseAPIClient from './clients/BaseAPIClient';
-import CompetitionsClient from './clients/CompetitionsClient';
-import DeltasClient from './clients/DeltasClient';
-import EfficiencyClient from './clients/EfficiencyClient';
-import GroupsClient from './clients/GroupsClient';
-import NameChangesClient from './clients/NameChangesClient';
-import PlayersClient from './clients/PlayersClient';
-import RecordsClient from './clients/RecordsClient';
-import config from './config';
+import BaseAPIClient from './clients/BaseAPIClient.ts';
+import CompetitionsClient from './clients/CompetitionsClient.ts';
+import DeltasClient from './clients/DeltasClient.ts';
+import EfficiencyClient from './clients/EfficiencyClient.ts';
+import GroupsClient from './clients/GroupsClient.ts';
+import NameChangesClient from './clients/NameChangesClient.ts';
+import PlayersClient from './clients/PlayersClient.ts';
+import RecordsClient from './clients/RecordsClient.ts';
+import config from './config.ts';
 
 interface WOMClientOptions {
   apiKey?: string;

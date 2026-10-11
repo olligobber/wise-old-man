@@ -1,4 +1,4 @@
-import { CompetitionTeam, GroupRole, Metric, Period } from '../../server/src/types';
+import { CompetitionTeam, GroupRole, Metric, Period } from '../../server/src/types/index.ts';
 
 export {
   AchievementProgressResponse,
@@ -22,9 +22,9 @@ export {
   PlayerResponse,
   RecordResponse,
   SnapshotResponse
-} from '../../server/src/api/responses';
+} from '../../server/src/api/responses/index.ts';
 
-export * from '../../server/src/types';
+export * from '../../server/src/types/index.ts';
 
 export interface GenericCountMessageResponse {
   count: number;

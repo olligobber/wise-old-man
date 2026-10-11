@@ -6,8 +6,8 @@ import {
   PlayerResponse,
   PlayerType,
   RecordResponse
-} from '../api-types';
-import BaseAPIClient from './BaseAPIClient';
+} from '../api-types.ts';
+import BaseAPIClient from './BaseAPIClient.ts';
 
 export default class RecordsClient extends BaseAPIClient {
   /**

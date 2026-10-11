@@ -1,14 +1,14 @@
-import WOMClient from './client';
+import WOMClient from './client.ts';
 
-export * from '../../server/src/utils/shared';
-export * from './api-types';
+export * from '../../server/src/utils/shared/index.ts';
+export * from './api-types.ts';
 
-export * from './clients/CompetitionsClient';
-export * from './clients/DeltasClient';
-export * from './clients/EfficiencyClient';
-export * from './clients/NameChangesClient';
-export * from './clients/PlayersClient';
-export * from './clients/RecordsClient';
+export * from './clients/CompetitionsClient.ts';
+export * from './clients/DeltasClient.ts';
+export * from './clients/EfficiencyClient.ts';
+export * from './clients/NameChangesClient.ts';
+export * from './clients/PlayersClient.ts';
+export * from './clients/RecordsClient.ts';
 
 // CI trigger 11
 

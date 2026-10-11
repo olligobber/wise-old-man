@@ -1,5 +1,5 @@
-import type { Country, Metric, Period, PlayerBuild, PlayerResponse, PlayerType } from '../api-types';
-import BaseAPIClient from './BaseAPIClient';
+import type { Country, Metric, Period, PlayerBuild, PlayerResponse, PlayerType } from '../api-types.ts';
+import BaseAPIClient from './BaseAPIClient.ts';
 
 export default class DeltasClient extends BaseAPIClient {
   /**

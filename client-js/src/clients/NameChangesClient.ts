@@ -1,6 +1,6 @@
-import { NameChangeResponse, NameChangeStatus } from '../api-types';
-import { PaginationOptions } from '../utils';
-import BaseAPIClient from './BaseAPIClient';
+import { NameChangeResponse, NameChangeStatus } from '../api-types.ts';
+import { PaginationOptions } from '../utils.ts';
+import BaseAPIClient from './BaseAPIClient.ts';
 
 export default class NameChangesClient extends BaseAPIClient {
   /**

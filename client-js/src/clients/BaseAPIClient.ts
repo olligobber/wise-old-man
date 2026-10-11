@@ -1,4 +1,4 @@
-import { handleError, transformDates } from '../utils';
+import { handleError, transformDates } from '../utils.ts';
 
 export default class BaseAPIClient {
   private headers: HeadersInit;
@@ -43,7 +43,8 @@ export default class BaseAPIClient {
     body?: unknown;
     params?: unknown;
   }) {
-    const req = { method, body: undefined, headers: this.headers };
+    const req : { method : string, body ?: string, headers : HeadersInit }
+      = { method, body: undefined, headers: this.headers };
     let query = '';
 
     if (body) {
